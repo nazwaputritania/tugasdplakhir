@@ -14,3 +14,7 @@ if(nilai1 == 1){
     var masukanNilai1 = readline.questionInt('masukan nilai 1= ')
     var masukanNilai2 = readline.questionInt('masukan nilai 2= ')
     console.log(Number(masukanNilai1)*(Number(masukanNilai2)))
+ }else if(nilai1 == 3){
+    var masukanNilai1 = readline.questionInt('masukan nilai 1= ')
+    var masukanNilai2 = readline.questionInt('masukan nilai 2= ')
+    console.log(Number(masukanNilai1)-(Number(masukanNilai2)))
