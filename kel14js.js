@@ -4,7 +4,9 @@
 // Nazwa Putri Tania X PPLG 2
 
 const readline = require('readline-sync')
+console.log('.............................');
 console.log('SELAMAT DATANG DI KALKULATOR');
+console.log('.............................');
 var nilai1 = readline.questionInt('pilih fungsi: 1.Tambah, 2.kali 3.kurang 4.bagi = ')
 if(nilai1 == 1){
     var masukanNilai1 = readline.questionInt('masukan nilai 1= ')
